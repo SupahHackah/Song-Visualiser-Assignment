@@ -60,6 +60,7 @@ float[][] terrain;
 void setup()
 {
   fullScreen(P3D);
+  frameRate(60);
 
   // Make processing use minim
   m = new Minim(this);
